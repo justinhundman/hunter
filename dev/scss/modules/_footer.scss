@@ -1,0 +1,73 @@
+.Footer {
+	color: #fff;
+	a{
+		color: #fff;
+	}
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+.footer-wrapper{
+	 background:  url("../img/backpattern.jpg");
+	 padding:2% 1.5% 5% 1.5%;
+}
+.footer-wrapper2{
+	border-bottom:#7bb3d7 5px solid
+}
+.copytext{
+	background: #7bb3d7;
+	color: #fff;
+	margin: 0;
+	width: 509px;
+	padding: 10px;
+	margin-top: -37px;
+	float: right;
+	margin-right: -14px;
+}
+.logo-bottom{
+	width: 130px;
+}
+.footer-right{
+	#nav_menu-2{
+		width: 100%;
+	}
+	.menu-0{
+		width: 100%;
+	}
+	color: #000;
+	a{
+		color: #fff;
+		float: left;
+		clear: both;
+	}
+}
+// responsive ----------------------------------
+@media all and (max-width: 640px) { 
+	.footer-right{
+		margin-bottom:50px
+	}
+	.footer-wrapper{
+		text-align: center;
+	}
+}
+@media all and (max-width: 525px) { 
+	.copytext{
+		width: 100%;
+		position: absolute;
+		left: 0;
+		text-align: center;
+	}
+}

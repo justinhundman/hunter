@@ -1,0 +1,109 @@
+.Content {
+
+}
+.wrapper-content{
+	margin-top: -40px;
+}
+.wrapper-content-left{
+	 padding:1% 5%;
+	 ul{
+		list-style: url("../ico/vink.svg") inside;
+		li{ 
+			position: relative;
+			p{
+		
+				margin: 0;
+				top: 0;
+				left: 50px;
+			}
+		}
+	}
+}
+h2{
+	font-size: 14px;
+	 background:  url("../img/backpattern.jpg");
+	 color:#fff;
+		padding:10px 5% 10px 5%;
+	 border-bottom: #7bb3d7 5px solid;
+}
+.content-border{
+	 background:  url("../img/backpattern.jpg");
+	 height: 20px;
+	margin-bottom: 5px;
+}
+.right-side{
+	overflow: hidden;
+}
+.right-border-bottom{
+	margin-top: -39px;
+}
+.button-wrapper{
+	 border-bottom: #7bb3d7 5px solid;
+	}
+.button-skin{
+	float: right;
+	padding: 11px 25px;
+	background: #7BB3D7;
+	margin-top: -42px;
+	color: #fff;
+	margin-bottom: 5%;
+}
+.text-align-center{
+	text-align:center;
+}
+.wrapper-content-right {
+	padding: 0 5%;
+
+	.gform_footer{
+		 border-bottom: #7bb3d7 5px solid;
+		 	margin-left: -15px !important;
+		margin-right: -20px !important;
+		z-index: 1;
+	}
+	.gform_button{
+		float: right;
+		padding: 11px 25px;
+		background: #7BB3D7;
+		margin-top: -31px;
+		color: #fff;
+		margin-bottom: 5%;
+		border: none;
+		
+	}
+}
+// home ----------------------------------
+
+// contact-page --------------------------
+#map_canvas{
+	margin-top: -12px;
+}
+// app-page---------------------------------
+
+.iphoneback{
+	position: relative;
+	margin-top: 2%;
+}
+.iphone-image{
+	width: 100%;
+}
+.iphone-iframe{
+	width: 99%;
+	height: 100%;
+	padding: 23% 5% 21% 6%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.app-logo{
+	width: 61%;
+}
+
+// responsive -----------------------------------------
+@media all and (max-width: 640px) { 
+	.wrapper-content-right {
+		.gform_footer{
+			margin-left: -29px !important;
+			margin-right: -40px !important;
+		}
+	}
+}
