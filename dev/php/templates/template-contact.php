@@ -9,6 +9,7 @@ Template Name: Contactpage
 	<div>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<article class="Content Content--fullwidth u-gridContainer" id="post-<?php the_ID(); ?>">
+			
 			<div class="Content-entry">
 				<h2><?php the_title(); ?></h2>
 				<div class="Content-text">
@@ -16,14 +17,14 @@ Template Name: Contactpage
 					<div class="u-gridRow">					
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
-								<p>hunter</p>
+								<p>Administratiekantoor R. Hunter B.V.</p>
 								<p>Algolweg 11-a</p>
 								<p>3821 BG Amersfoort</p>
 								<p>Email: robhunter@tak-administratie.nl</p>
 								<p>Tel: 0297800560</p>
 							</div>
 	
-						</div>					
+						</div>					 
 						<div class="adress-map u-gridCol8">
 							<div id="map_canvas"></div>
 						</div>

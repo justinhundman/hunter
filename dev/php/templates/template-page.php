@@ -7,6 +7,9 @@ Template Name: Page
 <?php get_header(); ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div class="u-gridContainer wrapper-content u-gridRow">
+			<div class="u-gridRow">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/financebanner.jpg">
+			</div>
 			<div class="u-gridRow u-gridCol8">
 				<div class=" u-gridCol12">
 					<h2><?php the_title(); ?></h2>
@@ -16,7 +19,7 @@ Template Name: Page
 					</div>	
 					<div class="content-border"></div>
 					<div class="button-wrapper">
-						<a class="button-skin" href="#">Meer...</a>
+						<a class="button-skin" href="#">Meer...</a> 
 					</div>
 				</div>
 			</div>
